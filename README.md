@@ -13,9 +13,13 @@ Using this asset you have the following benefit
 ## Installation
 
 Well the above code you need to place under /home/dsadm directory and give chmod 777 permission to the files. Then you need to run the below command to do the compilation.
+
 g++ -c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small checkRegularExpression.cpp
+
 g++ -c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small checkRegularExpressionMatch.cpp
+
 chmod 777 checkRegularExpression.o
+    
 chmod 777 checkRegularExpressionMatch.o
 
 
