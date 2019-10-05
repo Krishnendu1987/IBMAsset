@@ -10,6 +10,15 @@ Using this asset you have the following benefit
 *	Flexibility :- You can use this routine and tweak it as per your requirement.
 *	Usability :- Any kind of regex rule validation and regex match find can be done using routine.
 
+## Installation
+
+Well the above code you need to place under /home/dsadm directory and give chmod 777 permission to the files. Then you need to run the below command to do the compilation.
+g++ -c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small checkRegularExpression.cpp
+g++ -c -O -fPIC -Wno-deprecated -m64 -mtune=generic -mcmodel=small checkRegularExpressionMatch.cpp
+chmod 777 checkRegularExpression.o
+chmod 777 checkRegularExpressionMatch.o
+
+
 ## Utility:-
 Now you can use any expression instead of our above example [0-9]+ using this routine to take out your correct data from any unstructured unformatted text. This function can be used as an enhanced “Field()” function of Datastage as well if you want to find out a delimiter which is a regular expression.
 So from overall utility perspective this asset is very useful and generic. 
